@@ -28,8 +28,8 @@ const Navbar = () => {
   ];
   
   return (
-    <nav>
-      <div className="flex justify-between max-w-6xl mx-auto  items-center mt-9">
+    <nav className="sticky top-0 z-50  bg-white">
+      <div className="flex justify-between max-w-6xl mx-auto  items-center mt-9 shadow p-4">
         <p className="font-extrabold text-4xl text-Primary">P-Ticket</p>
         <div className="flex gap-4">
           {navMenu.map((item) => (
